@@ -36,3 +36,14 @@ a <- sample(c(TRUE,FALSE,NA),1000,replace = TRUE)
 b <- sample(1:3, 1000, replace = TRUE)
 
 ab.df <- data.frame(a,b)
+
+
+x <- seq(from=10,to=20)
+
+x <- 10:100
+new_x <- x < 50
+
+
+fruit <- c(5, 10, 1, 20)
+names(fruit) <- c("orange", "banana", "apple", "peach")
+lunch <- fruit["apple"]
