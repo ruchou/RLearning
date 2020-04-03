@@ -14,3 +14,25 @@ print(z)
 
 print("Taiwan Value")
 rm(x)
+
+very_long_name <- 190
+
+l <- 1:10
+
+x <- 3
+class(x)
+
+is(x,"numeric")
+is.integer(1) #false
+is.integer(1L) #true
+
+
+y <- c(1:10)
+as.data.frame(y)
+z <- sample(c(TRUE,FALSE,NA),1000,replace = TRUE)
+summary(z)
+
+a <- sample(c(TRUE,FALSE,NA),1000,replace = TRUE)
+b <- sample(1:3, 1000, replace = TRUE)
+
+ab.df <- data.frame(a,b)
